@@ -1,0 +1,19 @@
+Install swagger 
+
+$ npm i -g swagger
+
+Create a new swagger project first
+
+$ swagger project create test
+
+You can copy or compare the files to see differences
+
+E.G.
+
+different operationID
+
+different controllers
+
+posting data
+
+security
