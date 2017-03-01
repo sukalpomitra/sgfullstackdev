@@ -1,0 +1,13 @@
+Zookeeper NodeJS Leader Election Sample.
+
+There may be a problem with the create function, 2nd create should be inside callback of first create or use promise / async / yield.
+
+Or you can run first create (comment out the second) just to build the election root node, then comment out first create and then run.
+
+You need to run zookeeper first, download official image from Docker and configure and run it (use kitematic is easiest)
+
+Then run two instances (with a name you choose) after creating root election node
+
+e.g.
+node leader-election.js AAA
+node leader-election.js BBB
